@@ -146,6 +146,15 @@ footer {
 }
 
 /* stylisation for main page */
+.slogan {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .values {
   font-weight: 700;
   font-size: 14px;
@@ -159,6 +168,14 @@ footer {
   line-height: 1, 7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.offer {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team {
@@ -197,5 +214,10 @@ footer {
 .link:focus,
 .link:hover {
   stroke: #2196f3;
+  color: #2196f3;
+}
+
+.icons:hover,
+.icons:focus {
   color: #2196f3;
 }
