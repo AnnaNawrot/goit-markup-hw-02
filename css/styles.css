@@ -174,10 +174,13 @@ footer {
 }
 .clients:hover,
 .clients:active {
-  color: #2196f3;
-  color-scheme: #2196f3;
+  stroke: #2196f3;
 }
 .social-links .link:hover,
 .social-links .link:active {
-  color: #2196f3;
+  stroke: #2196f3;
+}
+
+.link:focus {
+  stroke: #2196f3;
 }
