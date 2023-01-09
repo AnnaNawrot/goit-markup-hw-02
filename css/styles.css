@@ -186,9 +186,12 @@ footer {
   color: #ffffff;
 }
 
-.imgs {
-  background-image: url(images\bg-photos\opacity-rectangle.jpg);
+.opacity-rectangle {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
 }
+
 .our-team {
   background: #e5e5e5;
 }
