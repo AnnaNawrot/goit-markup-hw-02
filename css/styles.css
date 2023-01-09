@@ -170,14 +170,25 @@ footer {
   color: #757575;
 }
 
-.offer {
+.offer .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
+.services {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.imgs {
+  background-image: url(images\bg-photos\opacity-rectangle.jpg);
+}
 .our-team {
   background: #e5e5e5;
 }
