@@ -42,6 +42,7 @@ ul {
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
+  stroke: #2196f3;
 }
 
 button {
@@ -72,8 +73,19 @@ button {
   cursor: pointer;
 }
 
-.project-set:focus,
-.project-set:hover {
+.project-card {
+  width: 370;
+}
+
+.project-description {
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  max-width: 370;
+}
+
+.project-card:focus,
+.project-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -133,6 +145,7 @@ footer {
   background-color: #2f303a;
 }
 
+/* stylisation for main page */
 .values {
   font-weight: 700;
   font-size: 14px;
@@ -158,7 +171,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.position {
+.job-position {
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
@@ -169,18 +182,20 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   width: 270px;
   height: auto;
 }
 .clients:hover,
 .clients:active {
   stroke: #2196f3;
-}
-.social-links .link:hover,
-.social-links .link:active {
-  stroke: #2196f3;
+  color: #2196f3;
 }
 
-.link:focus {
+.link:focus,
+.link:hover {
   stroke: #2196f3;
+  color: #2196f3;
 }
