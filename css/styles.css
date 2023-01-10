@@ -115,16 +115,6 @@ address {
   color: white;
 }
 
-.cta {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
 .logo {
   color: #2196f3;
 }
@@ -150,7 +140,9 @@ footer {
   background-color: #2f303a;
 }
 
-/* stylisation for main page */
+.hero {
+  background: #2f303a;
+}
 .hero-header {
   font-weight: 900;
   font-size: 44px;
@@ -160,7 +152,7 @@ footer {
   color: #ffffff;
 }
 
-.values {
+.advantages {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 1;
@@ -168,14 +160,14 @@ footer {
   text-transform: uppercase;
 }
 
-.value-description {
+.advantages-description {
   font-size: 14px;
   line-height: 1, 7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-.section-title .team {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
@@ -189,12 +181,6 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.opacity-rectangle {
-  width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
 }
 
 .our-team {
@@ -212,32 +198,4 @@ footer {
   line-height: 1, 18;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.team-card {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  width: 270px;
-  height: auto;
-}
-.clients:hover,
-.clients:active {
-  stroke: #2196f3;
-  color: #2196f3;
-}
-
-.link:focus,
-.link:hover {
-  stroke: #2196f3;
-  color: #2196f3;
-}
-
-.icons:hover,
-.icons:focus {
-  color: #2196f3;
-  stroke: #2196f3;
 }
